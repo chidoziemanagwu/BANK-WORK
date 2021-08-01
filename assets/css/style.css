@@ -355,12 +355,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero2 {
   width: 100vw;
   height: 50vh;
-  background: url("../img/side2.jpg") top -250px center no-repeat;
+  background: url("../img/side2.jpg") top center no-repeat;
   background-size: cover;
-  background-position: top 50px bottom 20px;
   /* object-fit:cover; */
   position: relative;
-  padding-top: 82px;
+  padding-top: 50px;
 }
 
 
