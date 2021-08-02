@@ -391,6 +391,16 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 50px;
 }
 
+#hero6 {
+  width: 100vw;
+  height: 50vh;
+  background: url("https://www.cathaybank.com/sites/default/files/2019-09/GettyImages-899165814_card_1000.jpg") top center no-repeat;
+  background-size: cover;
+  /* object-fit:cover; */
+  position: relative;
+  padding-top: 50px;
+}
+
 
 #hero:before {
   content: "";
