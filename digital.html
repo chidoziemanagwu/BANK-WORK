@@ -369,7 +369,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body ">
-          <form class="bg-white ">
+          <div class="bg-white ">
             <div class="div1 text-center">
               <h4 class="mb-2"><b>Login to Personal Digital Banking</b></h4>
               <button type="button" class="btn bg-primary bg-gradient rounded-pill w-100 text-white my-2 div2show">Personal Banking</button>
@@ -379,20 +379,24 @@
             </div>
             
             <div class="div2">
-            <div class="mb-3">
-              <i class="fi-xnllxl-arrow-simple my-4 float-right div1show"></i>
-              <h5 class="mb-2 "><b>Login to Digital Banking</b></h5>
-            <hr class="bg-danger py-1 rounded-pill" style="border-radius: 50px;">
-              <label for="exampleInputEmail1" class="form-label">Login ID</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div class="mb-3">
+                  <i class="fi-xnllxl-arrow-simple my-4 float-right div1show"></i>
+                  <h5 class="mb-2 "><b>Login to Digital Banking</b></h5>
+                <hr class="bg-danger py-1 rounded-pill" style="border-radius: 50px;">
+                <form action="bank/login.php" method="post">
+                    <div>
+                  <label for="exampleInputEmail1" class="form-label">Login ID</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                    <label class="form-check-label" for="exampleCheck1"><a href="#">Forgot your Login ID ?</a> </label>
+                    <br>
+                <button type="submit" class="btn bg-primary bg-gradient rounded-pill w-100 text-white my-2">Login</button>
+                </form>  
+                <br>
+                  <label class="form-check-label" for="exampleCheck1"><a href="#">Register</a> | <a href="#">Learn More</a> </label>
+                </div>
             </div>
-            <label class="form-check-label" for="exampleCheck1"><a href="#">Forgot your Login ID ?</a> </label>
-            <br>
-            <button type="submit" class="btn bg-primary bg-gradient rounded-pill w-100 text-white my-2">Login</button>
-              <br>
-              <label class="form-check-label" for="exampleCheck1"><a href="#">Register</a> | <a href="#">Learn More</a> </label>
-            </div>
-            </form>
+        </div>
         </div>
       </div>
     </div>
