@@ -109,9 +109,9 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0 shadow-0">
         <ul>
-          <li><a class="nav-link " href="checking.html">Checking</a></li>
-          <li><a class="nav-link " href="savings.html">Savings</a></li>
-          <li><a class="nav-link active" href="lending.html">Lending</a></li>
+          <li><a class="nav-link" href="checking.html">Checking</a></li>
+          <li><a class="nav-link" href="savings.html">Savings</a></li>
+          <li><a class="nav-link" href="lending.html">Lending</a></li>
           <li><a class="nav-link " href="creditcards.html">Credit Cards</a></li>
           <li><a class="nav-link" href="digital.html">Digital Banking</a></li>
           <li><a class="nav-link me-2" href="contact.html">Contact Us</a></li>
@@ -122,188 +122,89 @@
       <button type="button" class="btn scrollto bg-danger bg-gradient btn-sm text-white rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fi-xtluxl-sign-in-thin"></i> Login</button>
     </div>
   </header><!-- End Header -->
-  
+
   <!-- ======= Hero Section ======= -->
-  <section id="hero4" class="d-flex align-items-center pe-2">
-
-    <div class="container" data-aos="zoom-out" data-aos-delay="50">
-      <div class="bg-white p-4 ms-auto">
-        <h1>Easy, convenient loan options</h1>
-      <h1 class="bg-danger text-white ps-2 my-3">for life's expenses</h1>
-      </div>
-    </div>
-
-  </section><!-- End Hero -->
-
   <main id="main">
-
-
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about ">
+   
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
-    
-        <div class="container-fluid">
-          <h1>Flexible and convenient lending</h1>
-          <p class="pb-0 my-3 fs-4">From large purchases like a home to unexpected expenses, our Personal Lending solutions can help you access the funds you need to achieve your personal and financial goals.</p>
-          <p>Cathay Bank offers flexible lending options. Whether you want to purchase a home or apply for a credit card, our products can fit your needs and goals.<br><br>
 
-            Our Personal Lending solutions feature competitive rates and flexible repayment terms, plus an easy application process that gives you quick access to your funds upon approval.</p>          
-        <div class="row no-gutters">
-          <div class="col-12 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column">
-              <div class="container w-75">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Send us a message and we will respond to you ASAP</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-12">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <!-- <i class="bx bx-receipt"></i> -->
-                  <h3>Easy to apply</h3>
-                    <p>Apply for a loan online or by visiting your local Cathay Bank branch.</p>
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <h3>Lending flexibility</h3>
-                    <p>Financing with flexible terms and rates.</p>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <h3>Relationship discount</h3>
-                    <p>Take advantage of our relationship discount on home mortgages.</p>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+          </div>
+
+          <!-- <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
-                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                    <h3>More savings options</h3>
-                      <p>Grow your savings your way with an account made for your financial goals.</p>
-                  </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
               </div>
-            </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-        <div class="row mt-4">
-            <div class="col-md-8">
-              <h2 >Mortgage appointments open!<br>
-                Schedule a remote online interview.</h2>
-            </div>
-            <div class="col-md-4 text-center">
-              <img src="assets/img/side1.jpg" style="object-fit:cover; background-size: contain;" class="img img-fluid img-thumbnail" width="300" height="300">
-            </div>
-          </div>
-      </div>
-    </section>
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <p>Personal Lending</p>
-          <h2>Products & Services</h2>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col d-flex align-items-stretch">
-            <div class="card">
-              <img src="https://www.cathaybank.com/sites/default/files/2021-07/Product-Service_1180x730_HomeMortgageLoans.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Home Mortgage Loan</h5>
-                <p class="card-text">Access a range of home financing options at competitive interest rates with a Home Mortgage Loan.</p>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
-            </div>
-          </div>
-          <div class="col d-flex align-items-stretch">
-            <div class="card">
-              <img src="https://www.cathaybank.com/sites/default/files/2019-09/GettyImages-899165814_card_1000.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Personal Credit Cards</h5>
-                <p class="card-text">Choose a card with the right features, benefits and interest rates to help you earn rewards and build your credit.</p>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-            </div>
-          </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div> -->
+
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <!-- <section id="faq" class="faq">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <ul class="faq-list accordion" data-aos="fade-up">
-
-          <li>
-            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-              </p>
-            </div>
-          </li>
-
-        </ul>
-
-      </div>
-    </section> -->
-    <!-- End Frequently Asked Questions Section -->
-
-    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark" style=" background: url('https://www.goldmansachs.com/careers/divisions/investment-banking/images/investment-banking-hero.png') top center no-repeat;
-    background-size: cover;">
-      <div class="col-md-6 bg-white text-dark px-4 py-3">
-        <h1 class="display-4 ">Have a question?</h1>
-        <p class="lead my-3">Our team is happy to assist you with all your Personal Banking needs. Please reach out for more information.</p>
-        <p class="lead mb-3"><a href="contact.html" class="text-white rounded-pill btn btn-danger fw-bold">Contact Us</a></p>
-      </div>
-    </div>
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -399,7 +300,6 @@
       </div>
     </div>
   </div>
-
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
@@ -431,6 +331,7 @@
       $('.div2').hide();
     })
   </script>
+
 </body>
 
 </html>
